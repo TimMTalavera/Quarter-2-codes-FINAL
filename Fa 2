@@ -1,0 +1,6 @@
+def delivery_fee(distance, rate):
+    return distance * rate
+
+distance = float(input("Enter distance in kilometers: "))
+rate = float(input("Enter rate per kilometer in PHP: "))
+print("Total Delivery Fee: ₱", delivery_fee(distance, rate))
